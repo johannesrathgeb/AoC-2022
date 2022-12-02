@@ -1,7 +1,7 @@
 def getData():
     elfCalorieSum = 0
     CalorieSums = []
-    with open('data\\Calorie_List.txt') as f:
+    with open('data\\01_Calorie_List.txt') as f:
         lines = f.readlines()
         for line in lines:
             if line.strip() == "":

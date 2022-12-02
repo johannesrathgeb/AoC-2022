@@ -3,7 +3,7 @@
 #Lose X, Draw Y, Win Z
 def getData():
     rpsGuide = []
-    with open('data\\RPS_Guide.txt') as f:
+    with open('data\\02_RPS_Guide.txt') as f:
         lines = f.readlines()
         for line in lines:
             tempList = list(line)
