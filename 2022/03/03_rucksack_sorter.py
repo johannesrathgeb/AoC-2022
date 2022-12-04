@@ -20,7 +20,7 @@ def getSumOfChars(commonChars):
         return sum([ord(commonChar) - 96 if commonChar.islower() else ord(commonChar) - 38 for commonChar in commonChars])
 
 #get data
-data = [line for line in [tempLine.rstrip() for tempLine in open('data\\03_Rucksack_List.txt').readlines()]]
+data = [line for line in [tempLine.rstrip() for tempLine in open('2022\\03\\03_Rucksack_List.txt').readlines()]]
 
 print(getCommonCharValues(data))
 print(getPrioritySum(data))
