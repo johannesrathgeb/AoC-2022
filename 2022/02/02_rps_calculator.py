@@ -86,7 +86,7 @@ def calculateSecondScore(rpsGuide):
     return totalScore
 
 #read file
-rpsGuide = [line.split() for line in open('data\\02_RPS_Guide.txt').readlines()]
+rpsGuide = [line.split() for line in open('2022\\02\\02_RPS_Guide.txt').readlines()]
 
 print("First Version:", calculateFirstScore(rpsGuide))
 print("Second Version:", calculateSecondScore(rpsGuide))
